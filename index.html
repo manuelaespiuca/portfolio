@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manuela Espiúca · Portfólio</title>
+<meta name="description" content="Portfólio de Manuela Espiúca, estudante de Ciência da Computação: projetos em Python, Java e IA.">
+<meta property="og:title" content="Manuela Espiúca · Portfólio">
+<meta property="og:description" content="Estudante de Ciência da Computação. Projetos em Python, Java e IA.">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400;0,500&family=Hanken+Grotesk:wght@400;500;700&family=Caveat:wght@500&family=Silkscreen&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="sky" id="sky" aria-hidden="true"></div>
+<div class="wrap">
+  <header class="bd">
+    <a href="#" class="code" aria-label="Manuela, início" data-i18n-attr="aria-label:home">&lt;/&gt;</a>
+    <nav>
+      <a class="hide" href="#sobre" data-i18n="nav.about">Sobre</a><a class="hide" href="#projetos" data-i18n="nav.proj">Projetos</a><a class="hide" href="#formacao" data-i18n="nav.edu">Formação</a><a class="hide" href="#certificacoes" data-i18n="nav.cert">Certificações</a><a class="hide" href="#contato" data-i18n="nav.contact">Contato</a>
+      <div class="tools"><button id="lang" type="button" aria-label="Mudar idioma para inglês" title="English"><span id="lang-label">EN</span></button><button id="theme" aria-label="Alternar tema claro e escuro" data-i18n-attr="aria-label:theme">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button></div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero bd">
+      <div class="reveal">
+        <h1 data-i18n="hero.h1">Oi, eu sou a Manuela</h1>
+        <p class="role"><span data-i18n="role.pre">Estudante de </span><b><span id="typed"></span><span class="caret"></span></b><span data-i18n="role.post"></span></p>
+        <p class="note" data-i18n="hero.note">vamos construir algo juntos</p>
+        <a class="cta" href="#projetos" data-i18n="hero.cta">Ver meus projetos →</a>
+      </div>
+      <div class="stage reveal" aria-hidden="false">
+        <svg class="clock" viewBox="0 0 400 400" fill="none" stroke="currentColor" aria-hidden="true">
+          <g class="ring" id="ticks"></g>
+          <circle cx="200" cy="200" r="178" stroke-width="1" opacity=".55"/>
+          <circle cx="200" cy="200" r="150" stroke-width="1" stroke-dasharray="2 7" opacity=".6"/>
+          <g class="hand h-hr"><path d="M200 200 L200 92" stroke-width="3" stroke-linecap="round"/><path d="M200 82 l7 10 -7 10 -7 -10z" fill="currentColor" stroke="none"/></g>
+          <g class="hand h-min"><path d="M200 200 L200 54" stroke-width="1.6" stroke-linecap="round"/></g>
+        </svg>
+        <div class="frame"><img alt="Imagem de destaque do portfólio da Manuela" data-i18n-attr="alt:hero.alt" src="assets/foto.jpg">
+          <div class="hud" aria-hidden="true">
+            <i class="cn tl"></i><i class="cn tr"></i><i class="cn bl"></i><i class="cn br"></i>
+            <div class="det"><span data-i18n="hud.person">PESSOA DETECTADA</span></div>
+          </div>
+        </div>
+        <div class="hud wout" aria-hidden="true">
+            <svg class="wl"><line x1="0" y1="0" x2="0" y2="0"/></svg>
+            <i class="wm a"></i>
+            <div class="wd"><span class="lb" data-i18n="hud.wings">DETALHE: ASAS</span><div class="tt"><i></i><i></i><i></i></div><canvas></canvas><i class="wm b"></i></div>
+        </div>
+        <svg class="bow" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g transform="translate(36 54) rotate(30)"><path d="M-2 -12 L-2 16 A6 6 0 0 0 10 16 L10 -18 A10 10 0 0 0 -10 -18 L-10 22"/></g><g transform="translate(64 50) scale(-1 1) rotate(32)"><path d="M-2 -12 L-2 16 A6 6 0 0 0 10 16 L10 -18 A10 10 0 0 0 -10 -18 L-10 22"/></g></svg>
+      </div>
+    </div>
+
+    <section id="sobre" class="bs sobre-merged">
+      <div class="strip" aria-label="Linguagens"><ul><li>Python</li><li>Java</li><li>C</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul></div>
+      <h2 data-i18n="about.h2">Sobre</h2>
+      <div class="about">
+        <p data-i18n="about.p">Estudante no Rio de Janeiro, vinda da Psicologia. Estou me descobrindo na área de tecnologia, com interesse em <strong>desenvolvimento de software</strong>, <strong>QA</strong>, <strong>desenvolvimento de jogos</strong> e <strong>UX/UI</strong>, e pratico construindo projetos pessoais e da faculdade.<br><br>Busco minha primeira oportunidade, em <strong>estágio</strong>, para aplicar e aprimorar meus conhecimentos.</p>
+        <div class="wings" role="img" aria-label="Asas feitas de pontos de braille, com pequenos brilhos" data-i18n-attr="aria-label:about.wings"></div>
+      </div>
+    </section>
+
+    <section id="projetos" class="bd">
+      <h2 data-i18n="proj.h2">Projetos</h2>
+      <div class="pf-stage">
+        <figure class="pf-photo"><div class="pf-pt" aria-hidden="true"><div><i>–</i><i>□</i><i class="c">×</i></div></div><img src="assets/foto-projetos.jpg" alt=""></figure>
+        <div class="pf-folders" id="pf-folders"></div>
+        <div class="pf-desk" id="pf-desk"></div>
+      </div>
+      <div class="pager" hidden><button class="arrow" id="prev" type="button" aria-label="Página anterior" data-i18n-attr="aria-label:prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="pdots" id="pdots"></div><button class="arrow" id="next" type="button" aria-label="Próxima página" data-i18n-attr="aria-label:next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button></div>
+      <div id="src" hidden aria-hidden="true">
+      <div class="carousel">
+      <div class="grid" id="track">
+        <article class="proj" data-repo="hand-detector">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>hands = detector.find(frame)</span><span>&nbsp;&nbsp;gesto = "joinha"</span></code></div>
+          <h3>hand-detector</h3>
+          <p data-i18n="hd.desc">Aplicação de visão computacional em Python com OpenCV e MediaPipe que rastreia as mãos pela webcam em tempo real. Reconhece gestos e letras de Libras, incluindo as que têm movimento, joga pedra, papel e tesoura, desenha no ar e aplica filtros numa área marcada com as mãos. A interface tem efeito de vidro fosco e funciona em português e inglês, com câmera e detecção em threads separadas para ganhar fps.</p>
+          <ul class="chips"><li>Python</li><li>OpenCV</li><li>MediaPipe</li><li>NumPy</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/hand-detector" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-hand-detector"><div></div></div>
+        </article>
+        <article class="proj" data-repo="alter-ego">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>&gt; alter_ego.say("oi")</span><span>&nbsp;&nbsp;expressao = "feliz"</span></code></div>
+          <h3>alter-ego</h3>
+          <p data-i18n="ae.desc">Chat de desktop no estilo visual novel, feito em Python (Eel) com Gemini AI. Tem um avatar que alterna entre 7 expressões a cada resposta, contexto de conversa, efeito de digitação com som, histórico em SQLite e interface em português e inglês. Inclui testes automatizados e release v1.0.0 em executável no GitHub.</p>
+          <ul class="chips"><li>Python</li><li>Eel</li><li>Gemini API</li><li>SQLite</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/alter-ego" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-alter-ego"><div></div></div>
+        </article>
+        <article class="proj" data-repo="KAngel-bot">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>while attention.exists():</span><span>&nbsp;&nbsp;perform()</span></code></div>
+          <h3>KAngel-bot</h3>
+          <p data-i18n="p1.desc">Bot em Python com discord.py e Gemini API para moderação de servidores do Discord, música e organização de estudos. Inclui tutor com IA que explica, resume e faz quizzes, música com fila, pomodoro, lembretes e tarefas. Tem duas personalidades alternáveis e funciona em português e inglês, com o idioma salvo por servidor.</p>
+          <ul class="chips"><li>Python</li><li>discord.py</li><li>Gemini API</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/KAngel-bot" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-KAngel-bot"><div></div></div>
+        </article>
+        <article class="proj" data-repo="portfolio">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>&lt;h1&gt;Oi, eu sou a Manuela&lt;/h1&gt;</span></code></div>
+          <h3>portfolio</h3>
+          <p data-i18n="pf.desc">Este próprio site, meu portfólio pessoal, feito com HTML, CSS e JavaScript puro, sem frameworks. Tem tema claro e escuro, versão em português e inglês sem recarregar a página, certificações com filtro por área e formulário de contato.</p>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/portfolio" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-portfolio"><div></div></div>
+        </article>
+        <article class="proj" data-repo="folha-de-pagamento-java">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>class Colaborador {</span><span>&nbsp;&nbsp;double salario();</span></code></div>
+          <h3>folha-de-pagamento-java</h3>
+          <p data-i18n="pj.desc">Aplicação de linha de comando em Java, feita como projeto da faculdade, para cadastro de colaboradores e geração da folha de pagamento. Usa herança e polimorfismo para calcular o salário de cada tipo de colaborador, com validação dos dados, matrícula única e resumo com total e média salarial.</p>
+          <ul class="chips"><li>Java</li><li>POO</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/folha-de-pagamento-java" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-folha-de-pagamento-java"><div></div></div>
+        </article>
+        <article class="proj" data-repo="hello-world">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>print("Hello, World!")</span></code></div>
+          <h3>hello-world</h3>
+          <p data-i18n="p2.desc">Um “Hello, World!” em cada linguagem que estou aprendendo, como registro de como a sintaxe muda de uma para outra.</p>
+          <ul class="chips"><li>Java</li><li>C</li><li>JavaScript</li><li>Portugol</li><li>Python</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/hello-world" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-hello-world"><div></div></div>
+        </article>
+        <article class="proj" data-repo="programming-logic-portugol">
+          <div class="mini"><div class="dots"><i></i><i></i><i></i></div><code><span>escreva("Olá, mundo!")</span></code></div>
+          <h3>programming-logic-portugol</h3>
+          <p data-i18n="p3.desc">Exercícios e pequenos projetos de lógica de programação em Portugol, do básico, com variáveis e condições, a laços e vetores.</p>
+          <ul class="chips"><li>Portugol</li></ul>
+          <div class="acts"><button class="btn solid" type="button" aria-expanded="false">Detalhes</button><a class="btn" href="https://github.com/manuelaespiuca/programming-logic-portugol" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg><span data-i18n="code">Código</span></a></div>
+          <div class="more" id="m-programming-logic-portugol"><div></div></div>
+        </article>
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="formacao" class="bd">
+      <h2 data-i18n="edu.h2">Formação</h2>
+      <div class="edu">
+        <div>
+          <ol class="tl">
+            <li class="now"><time>2026.2</time><h3 data-i18n="edu.cs">Ciência da Computação · IBMR</h3><p data-i18n="edu.inprog">Em andamento</p></li>
+            <li><time>2025.1</time><h3 data-i18n="edu.psy">Psicologia · Afya Universidade Unigranrio</h3><p data-i18n="edu.psyp">3 períodos concluídos, até 2026.1</p></li>
+            <li><time data-i18n="edu.inprog">Em andamento</time><h3 data-i18n="edu.eng">Inglês · Cultura Inglesa</h3><p data-i18n="edu.lvl">Nível B1</p></li>
+          </ol>
+        </div>
+        <div class="tech">
+          <p class="sub" data-i18n="tech.sub">Tecnologias</p>
+          <div><h4 data-i18n="tech.lang">Linguagens</h4><ul class="chips"><li>Python</li><li>Java</li><li>C</li><li>JavaScript</li></ul></div>
+          <div><h4>Web</h4><ul class="chips"><li>HTML</li><li>CSS</li></ul></div>
+          <div><h4 data-i18n="tech.ai">IA e visão computacional</h4><ul class="chips"><li>Gemini API</li><li>Prompt engineering</li><li>OpenCV</li><li>MediaPipe</li></ul></div>
+          <div><h4 data-i18n="tech.db">Banco de dados</h4><ul class="chips"><li>SQLite</li></ul></div>
+          <div><h4 data-i18n="tech.con">Conceitos</h4><ul class="chips"><li data-i18n="tech.oop">POO</li><li data-i18n="tech.test">Testes automatizados</li><li data-i18n="tech.img">Processamento de imagem</li></ul></div>
+          <div><h4 data-i18n="tech.vc">Ferramentas</h4><ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Figma</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificacoes" class="bs">
+      <div class="cert-head"><h2 data-i18n="cert.h2">Certificações</h2></div>
+      <div class="cwin">
+        <div class="cfilters" id="cfilters" role="group" aria-label="Filtrar por área" data-i18n-attr="aria-label:cert.filter"></div>
+        <ul class="certs" id="certs">
+          <li data-area="Programação"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c1">Lógica de Programação em JavaScript</strong><span class="org">Coti Informática</span></li>
+          <li data-area="Programação"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c7">Git e GitHub: Dominando Controle de Versão de Código</strong><span class="org">Alura</span></li>
+          <li data-area="Programação"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c8">Git e GitHub: Compartilhando e Colaborando em Projetos</strong><span class="org">Alura</span></li>
+          <li data-area="Tecnologia"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c10">Sensibilização para a Segurança Digital</strong><span class="org">Cisco Networking Academy</span></li>
+          <li data-area="Tecnologia"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c5">Internet das Coisas, IA e a Revolução Conectada</strong><span class="org">PUCRS</span></li>
+          <li data-area="Tecnologia"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c9">Introdução à Informática</strong><span class="org">SEST SENAT</span></li>
+          <li data-area="Design"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c11">Trilha Figma</strong><span class="org">Alura</span></li>
+          <li data-area="Design"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c3">Design Centrado no Usuário</strong><span class="org">PUCRS</span></li>
+          <li data-area="Produtividade"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></svg></span><strong data-i18n="c4">Pacote Office 2016</strong><span class="org">Fundação Bradesco</span></li>
+        </ul>
+        <div class="cert-more"><button class="btn" id="cert-toggle" type="button" aria-expanded="false" hidden></button></div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact bd">
+      <h2 data-i18n="contact.h2">Contato</h2>
+      <div class="ct-main">
+        <div class="c-left">
+          <p class="ct-text" data-i18n="ct.text">Tem um projeto, uma vaga ou quer trocar ideia sobre tecnologia? Escreva pelo formulário ou por um destes links.</p>
+          <div class="social">
+          <a href="mailto:manuespiuca.dev@gmail.com" aria-label="E-mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+          <a href="https://www.linkedin.com/in/manuela-espiuca" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="https://github.com/manuelaespiuca" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a>
+        </div>
+        </div>
+        <div class="c-right">
+          <form id="cform">
+            <div class="fld"><label for="f-nome" data-i18n="f.name">Nome</label><input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome..." data-i18n-attr="placeholder:ph.name"></div>
+            <div class="fld"><label for="f-mail">E-mail</label><input id="f-mail" name="email" type="email" autocomplete="email" placeholder="email@dominio.com"></div>
+            <div class="fld w"><label for="f-msg" data-i18n="f.msg">Mensagem</label><textarea id="f-msg" name="msg" rows="5" placeholder="Conte sobre o seu projeto..." data-i18n-attr="placeholder:ph.msg"></textarea></div>
+            <button class="send" type="submit" aria-label="Enviar e-mail" data-i18n-attr="aria-label:f.send"><span data-i18n="f.sendtxt">Enviar mensagem</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bl p">
+    
+    <span data-i18n="footer">© 2026 Manuela Espiúca. Todos os direitos reservados.</span>
+  </footer>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/interacoes.js"></script>
+<script src="js/pastas.js"></script>
+<script src="js/hud-asas.js"></script>
+<script src="js/grade.js"></script>
+</body>
+</html>
